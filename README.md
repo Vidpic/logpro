@@ -16,7 +16,7 @@ pip install logpro
 ```
 import logpro as log
 
-log.level(log.ERROR)
+log.level(log.DEBUG)
 log.info("Info")
 log.debug("Debug")
 log.warning("Warning")
