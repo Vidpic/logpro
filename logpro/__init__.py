@@ -1,3 +1,3 @@
-from .logpro import log, DEBUG, INFO, WARNING, ERROR, CRITICAL
+from .logpro import level, debug, info, warning, error, critical, DEBUG, INFO, WARNING, ERROR, CRITICAL
 
-__all__ = ['log', 'DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRITICAL']
+__all__ = ['level', 'debug', 'info', 'warning', 'error', 'critical', 'DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRITICAL']

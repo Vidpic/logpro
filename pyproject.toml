@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "logpro"
-version = "0.1.0"
+version = "0.1.6"
 authors = [{ name = "Vidpic" }]
 description = "A simple logger for python."
 readme = "README.md"
@@ -14,9 +14,8 @@ classifiers = [
   "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3.9",
   "License :: OSI Approved :: MIT License",
-  "Operating System :: POSIX :: Linux",
 ]
-dependencies = ['logging', 'colorlog']
+dependencies = ['colorlog']
 
 [project.urls]
 Repository = "https://github.com/Vidpic/logpro"
