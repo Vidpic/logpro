@@ -2,10 +2,10 @@
 
 A simple logger for python.
 
-[![PyPI](https://img.shields.io/pypi/v/ina4235?color=dark-green)](https://pypi.org/project/ina4235/)
-[![PyPI downloads](https://img.shields.io/pypi/dm/ina4235?color=dark-green)](https://pypi.org/project/ina4235/)
-[![GitHub license](https://img.shields.io/github/license/Vidpic/ina4235?color=orange)](https://github.com/Vidpic/ina4235/blob/main/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/Vidpic/ina4235?color=blue)](https://github.com/Vidpic/ina4235/issues)
+[![PyPI](https://img.shields.io/pypi/v/logpro?color=dark-green)](https://pypi.org/project/logpro/)
+[![PyPI downloads](https://img.shields.io/pypi/dm/logpro?color=dark-green)](https://pypi.org/project/logpro/)
+[![GitHub license](https://img.shields.io/github/license/Vidpic/logpro?color=orange)](https://github.com/Vidpic/logpro/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/Vidpic/logpro?color=blue)](https://github.com/Vidpic/logpro/issues)
 
 ## Installation
 ```
