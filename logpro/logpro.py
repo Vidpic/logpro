@@ -39,19 +39,22 @@ class Log:
             handler.setLevel(log_level)
 
     def debug(self, msg, *args, **kwargs):
-        self.log.debug(msg, *args, **kwargs)
+        self.log.debug(self._indent_message(msg), *args, **kwargs)
 
     def info(self, msg, *args, **kwargs):
-        self.log.info(msg, *args, **kwargs)
+        self.log.info(self._indent_message(msg), *args, **kwargs)
 
     def warning(self, msg, *args, **kwargs):
-        self.log.warning(msg, *args, **kwargs)
+        self.log.warning(self._indent_message(msg), *args, **kwargs)
 
     def error(self, msg, *args, **kwargs):
-        self.log.error(msg, *args, **kwargs)
+        self.log.error(self._indent_message(msg), *args, **kwargs)
 
     def critical(self, msg, *args, **kwargs):
-        self.log.critical(msg, *args, **kwargs)
+        self.log.critical(self._indent_message(msg), *args, **kwargs)
+
+    def _indent_message(self, msg):
+        return msg.replace('\n', '\n                        ')
 
 log_instance = Log(__name__)
 
